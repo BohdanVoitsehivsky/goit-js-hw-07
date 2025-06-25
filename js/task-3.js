@@ -10,7 +10,7 @@ nameInput.addEventListener("input", handlerOptions);
 
 function handlerOptions(input) {
     const trimmed = input.target.value.trim();
-    nameOutput.textContent = trimmed === "" ? Anonymous : trimmed;
+    nameOutput.textContent = trimmed === "" ? "Anonymous" : trimmed;
   
 
 
